@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Working/Image_Detector/app/src/main/res/drawable/my_balloon_shape.xml" value="0.135" />
+        <entry key="..\:/Projects/Working/Image_Detector/app/src/main/res/drawable/other_balloon_shape.xml" value="0.135" />
+        <entry key="..\:/Projects/Working/Image_Detector/app/src/main/res/layout/activity_chat_bot.xml" value="0.1956521739130435" />
+        <entry key="..\:/Projects/Working/Image_Detector/app/src/main/res/layout/activity_main.xml" value="0.1956521739130435" />
+        <entry key="..\:/Projects/Working/Image_Detector/app/src/main/res/layout/activity_main_menu.xml" value="0.1956521739130435" />
+        <entry key="..\:/Projects/Working/Image_Detector/app/src/main/res/layout/activity_predict_ruins.xml" value="0.1956521739130435" />
+        <entry key="..\:/Projects/Working/Image_Detector/app/src/main/res/layout/activity_predict_stupa.xml" value="0.1956521739130435" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "111951350812",
+    "project_id": "research-project-cfcd0",
+    "storage_bucket": "research-project-cfcd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111951350812:android:b06372b11860714b40e3d9",
+        "android_client_info": {
+          "package_name": "com.example.image_detector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111951350812-0qfq2vgjl75v9v9fc8u2e6pvhe0jta4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm0SoXLsDQ2AAavF5qI1w2qzZbAt0yY2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111951350812-0qfq2vgjl75v9v9fc8u2e6pvhe0jta4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

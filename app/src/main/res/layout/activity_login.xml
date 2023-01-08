@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center|top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Login"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@drawable/user"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+
+            <TextView
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:layout_marginTop="25sp"
+                android:textStyle="bold"
+                android:layout_marginStart="2sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:hint="abc@gmail.com"
+                android:id="@+id/emailEditText"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/edit_text_background_shape"
+                android:padding="3sp"
+                android:layout_marginTop="10sp"
+                android:paddingStart="8sp"
+                android:layout_width="match_parent"
+                android:layout_height="45sp"/>
+
+            <TextView
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="2sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:hint="********"
+                android:id="@+id/passwordEditText"
+                android:background="@drawable/edit_text_background_shape"
+                android:padding="3sp"
+                android:inputType="textPassword"
+                android:layout_marginTop="10sp"
+                android:paddingStart="8sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="45sp"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/continueBtn"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button_background_shape"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <View
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:text="Or Register"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/divider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="?android:attr/listDivider" />
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/registerBtn"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button_white_background_shape"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
